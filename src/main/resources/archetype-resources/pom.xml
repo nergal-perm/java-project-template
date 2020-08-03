@@ -87,14 +87,6 @@
         <artifactId>qulice-maven-plugin</artifactId>
         <configuration>
           <license>file:${basedir}/NOTICE</license>
-          <excludes>
-            <!-- see https://www.qulice.com/qulice-maven-plugin/example-exclude.html -->
-            <!-- should be removed after project creation -->
-            <exclude>checkstyle:/src/main/java/.*/.*/.*</exclude>
-            <exclude>pmd:/src/main/java/.*/.*/.*</exclude>
-            <exclude>checkstyle:/src/test/java/.*/.*/.*</exclude>
-            <exclude>pmd:/src/test/java/.*/.*/.*</exclude>
-          </excludes>
         </configuration>
         <executions>
           <execution>
